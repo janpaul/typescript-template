@@ -13,6 +13,6 @@
     "clean": "rm -rf build",
     "format": "prettier --write .",
     "watch": "tsc --project . --watch",
-    "start": "yarn build && node build/primes.js"
+    "start": "yarn build && node build/index.js"
   }
 }
