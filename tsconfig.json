@@ -9,6 +9,7 @@
     "strict": true,
     "rootDir": "src",
     "target": "ES6",
-    "lib": ["es2019", "es6", "dom", "dom.iterable"]
+    "lib": ["es2019", "es6", "dom", "dom.iterable"],
+    "moduleResolution": "Node"
   }
 }
