@@ -1,6 +1,14 @@
+/* IDEA's and editors */
 .idea
 .vscode
 .fleet
 
+/* Node and yarn stuff */
 node_modules
-dist
+
+/* env files */
+.env
+.env.local
+
+/* dist */
+dist/
