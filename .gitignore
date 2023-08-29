@@ -1,14 +1,41 @@
-/* IDEA's and editors */
+# IDEA's and editors
 .idea
 .vscode
 .fleet
 
-/* Node and yarn stuff */
+#Node and yarn stuff
 node_modules
 
-/* env files */
+# env files
 .env
+.env.development.local
+.env.test.local
+.env.production.local
 .env.local
 
-/* dist */
+
+# log files
+logs
+*.log
+.node_repl_history
+
+# Caches
+*.tsbuildinfo
+.cache
+.eslintcache
+
+# NextJs build output (if applicable)
+.next
+out
+
+# Yarn + Yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+yarn-debug.log*
+yarn-error.log*
+
+# build output
 dist/
